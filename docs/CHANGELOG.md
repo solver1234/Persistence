@@ -1,4 +1,4 @@
-[Home](https://tmsz-dev.github.io/Persistence/) > [Changelog](https://tmsz-dev.github.io/Persistence/CHANGELOG.html)
+[Home](https://tmsz-dev.github.io/Persistence/) / [Changelog](https://tmsz-dev.github.io/Persistence/CHANGELOG.html)
 
 # [1.0.0] 2021-03-18
 
