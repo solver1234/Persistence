@@ -1,0 +1,31 @@
+{
+  "name": "persistence",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "discord",
+    "bot",
+    "persistence"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "run": "node src/index.js",
+    "update-patch": "npm version patch --no-git-tag-version",
+    "update-minor": "npm version minor --no-git-tag-version",
+    "update-major": "npm version major --no-git-tag-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMSZ-Dev/Persistence.git"
+  },
+  "author": "TMSZ-Dev",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/TMSZ-Dev/Persistence/issues"
+  },
+  "homepage": "https://github.com/TMSZ-Dev/Persistence#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
