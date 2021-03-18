@@ -1,5 +1,10 @@
 [Home](https://tmsz-dev.github.io/Persistence/) / [Changelog](https://tmsz-dev.github.io/Persistence/CHANGELOG.html)
 
+# [2.0.0] 2021-03-18
+
+* Moved commands to separate folders so they aren't hard-coded
+* Added [src/commands/tools/ping.js](https://github.com/TMSZ-Dev/Persistence/blob/master/src/commands/tools/ping.js)
+
 # [1.0.0] 2021-03-18
 
 * Initialized everything

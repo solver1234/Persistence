@@ -1,4 +1,4 @@
-[Home](https://tmsz-dev.github.io/Persistence/) / Commands / Tools / [Ping](https://tmsz-dev.github.io/Persistence/commands/tools/ping.html)
+[Home](https://tmsz-dev.github.io/Persistence/) / Commands / [Tools](https://tmsz-dev.github.io/Persistence/commands/tools) / [Ping](https://tmsz-dev.github.io/Persistence/commands/tools/ping.html)
 
 # Ping
 

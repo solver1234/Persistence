@@ -3,4 +3,4 @@
 # Tools
 
 **Commands in tools category:**
-* [ping](https://tmsz-dev.github.io/Persistence/commands/tools/ping.html)
+* [Ping](https://tmsz-dev.github.io/Persistence/commands/tools/ping.html)
