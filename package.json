@@ -9,7 +9,7 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "run": "node src/index.js",
+    "start": "node src/index.js",
     "update-patch": "npm version patch --no-git-tag-version",
     "update-minor": "npm version minor --no-git-tag-version",
     "update-major": "npm version major --no-git-tag-version"
