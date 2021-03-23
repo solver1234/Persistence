@@ -5,6 +5,9 @@ const { join } = require("path");
 // Get the bot's presence from include
 const { prefix, presence } = require("./include/config.json")
 
+// Get math challenge answer
+const { answer } = require("./data/challenge.json");
+
 // Load our environment variables from the .env file
 require("dotenv").config();
 
@@ -43,8 +46,25 @@ client.once("ready", () => {
 
 // Runs every time a message is sent
 client.on("message", msg => {
-    // Don't allow commands to be run by bots or in DMs
-    if (msg.author.bot || msg.channel.type == "dm") return;
+    // Don't allow commands to be run by bots
+    if (msg.author.bot) return;
+	
+	// If message is in a dm
+    if (msg.channel.type == "dm") {
+        if (msg.content == answer) { // If correct
+            msg.react("✅"); // React correct
+            
+            let role = client.guilds.cache.get("732787972780589137").roles.cache.get("757767435137974316"); //get solver role
+
+            let member = client.guilds.cache.get("732787972780589137").members.cache.get(msg.author.id); //get guild member
+
+            member.roles.add(role); // Add solver role
+
+            return;
+        } else { // If wrong
+            return msg.react("❌"); // React wrong
+		}
+    }
 
     // If the message starts with the prefix
     if (msg.content.startsWith(prefix)) {
